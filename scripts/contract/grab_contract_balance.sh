@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory of project
-DIR='/root/projects/token_dashboard'
+DIR='../..'
 
 # Timestamp for creating json files
 TS=$(date +%s)

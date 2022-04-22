@@ -1,2 +1,0 @@
-
-https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=$ca&address=$wallet&tag=latest&apikey=$api

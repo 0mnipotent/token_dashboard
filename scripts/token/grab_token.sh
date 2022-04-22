@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR='/root/token_dashboard'
+DIR='../..'
 
 FILE="$DIR/address-token.txt"
 

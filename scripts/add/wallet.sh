@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR='/root/token_dashboard'
+DIR='../..'
 
 if [ -z "$1" ];then
 	echo "Enter wallet address"

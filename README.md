@@ -60,7 +60,6 @@ Project File structure:
 	Grab balance of wallets using listed tokens
 	<br>
 `` /scripts/address/grab_address.sh``
-
 	<br>
 `` /scripts/add/wallet.sh``
 	Add to address-wallet.txt
