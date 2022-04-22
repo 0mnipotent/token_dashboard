@@ -24,10 +24,14 @@ curl -s "https://api.bscscan.com/api?module=account&action=balance&address=$CONT
 # Drip Garden
 CONTRACT='0x685BFDd3C2937744c13d7De0821c83191E3027FF'
 TOKEN='0xa0feB3c81A36E885B6608DF7f0ff69dB97491b58'
-curl -s "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=$TOKEN&address=$CONTRACT&tag=latest&apikey=$API"
+curl -s "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=$TOKEN&address=$CONTRACT&tag=latest&apikey=$API" > $DIR/json/contract/drip.garden.$TS.balance.json
 
 # Drip Faucet
 CONTRACT='0xFFE811714ab35360b67eE195acE7C10D93f89D8C'
+TOKEN='0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333'
+curl -s "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=$TOKEN&address=$CONTRACT&tag=latest&apikey=$API" > $DIR/json/contract/drip.faucet.$TS.balance.json
 
-
-
+# Drip Faucet Vault
+CONTRACT='0xbff8a1f9b5165b787a00659216d7313354d25472'
+TOKEN='0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333'
+curl -s "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=$TOKEN&address=$CONTRACT&tag=latest&apikey=$API" > $DIR/json/contract/drip.faucet.vault.$TS.balance.json
